@@ -1,0 +1,197 @@
+For Chatgpt
+Ai 
+Machine Learning
+Data Analyst
+Block Chain
+https://www.iosrjournals.org/iosr-jce/pages/26(5)Series-1.html?fbclid=IwY2xjawGGBhdleHRuA2FlbQIxMAABHTzoludXwX6J7IO-AyiKpFC8jtowtElS0v44zbOe9a-NWiOTMO6hln5MUA_aem_UBUOD5AJfW8aOrafjsHWiQ
+
+===============================
+
+// for loop
+for (initialization; Range/CSSConditionRule; increment/decrement){
+    //statement
+}
+
+// nested loop ---> Like 2D Array 
+for (initialization; Range/CSSConditionRule; increment/decrement){
+    //statement
+
+    for (initialization; Range/CSSConditionRule; increment/decrement){
+    //statement
+}
+}
+
+for (let i = 0; i <=10; i++){
+    //statement
+    for (let i = 0; i <=10; i++){
+    //statement
+}
+}
+
+// 1D Array 
+let marks = [34, 65, 89,98, 32]
+
+// 2D Array 
+let marks = [
+    [34, 65, 89,98, 32],
+    [56, 78, 88, 67, 99],
+    [43, 67, 89, 78, 9],
+];
+
+
+========================================
+Nested 
+for (intialization; range/condition; increment/decrement){
+    //statement......
+    (intialization; range/condition; increment/decrement)
+}
+
+sectionA: 34, 65, 89,98, 32
+sectionB: 56, 78, 88, 67, 99
+sectionC: 43, 67, 89, 78, 9
+
+let marks = [
+    [34, 65, 89,98, 32],
+    [56, 78, 88, 67, 99],
+    [43, 67, 89, 78, 9],
+];
+
+marks[0][0]
+console.log(marks[0][0])
+
+marks[0][0]
+marks[0][1]
+marks[0][2]
+marks[0][3]
+marks[0][4]
+
+
+marks[1][0]
+marks[1][1]
+marks[1][2]
+marks[1][3]
+marks[1][4]
+
+
+marks[2][0]
+marks[2][1]
+marks[2][2]
+marks[2][3]
+marks[2][4]
+
+// console.log(marks[0][0]);
+// console.log(marks[0][1]);
+// console.log(marks[0][2]);
+// console.log(marks[0][3]);
+// console.log(marks[0][4]);
+
+// console.log(marks[1][0]);
+// console.log(marks[1][1]);
+// console.log(marks[1][2]);
+// console.log(marks[1][3]);
+// console.log(marks[1][4]);
+
+// console.log(marks[2][0]);
+// console.log(marks[2][1]);
+// console.log(marks[2][2]);
+// console.log(marks[2][3]);
+// console.log(marks[2][4]);
+
+
+for(i = 0; i <= 2; i++){
+    for(j = 0; j <= 4; j++){
+        // console.log(marks[0][0]);
+          console.log(marks[i][j]);
+    }
+}
+
+Nested for loop --> Marks>>>for(i = 0; i <= 2; i++){
+    for(j = 0; j <= 4; j++){
+        // console.log(marks[0][0]);
+          // console.log(marks[i][j]);
+
+          if(marks[i][j] >=33){
+            console.log('Passed');
+          }
+          else{
+            console.log('Failed');
+          }
+    }
+}
+
+
+for(i = 0; i <= 2; i++){
+    for(j = 0; j <= 4; j++){
+        // console.log(marks[0][0]);
+        //   console.log(marks[i][j]);
+
+          if(marks[i][j] >=33){
+            console.log(marks[i][j] + ' = Passed');
+          }
+          else{
+            console.log(marks[i][j] + '= Failed');
+          }
+    }
+}
+
+--------->>>
+// section create
+
+for(i = 0; i <= 2; i++){
+    // for section A, B, C
+    if( i == 0 ) {
+        console.log("Section A")
+    }
+    else if ( i == 1 ) {
+        console.log("Section B")
+    }
+
+    // else if ( i == 2 ) {
+    //     console.log("Section c")
+    // }
+    else {
+        console.log("Section c")
+    }
+
+
+
+    for(j = 0; j <= 4; j++){
+        // console.log(marks[0][0]);
+        //   console.log(marks[i][j]);
+
+          if(marks[i][j] >=33){
+            console.log(marks[i][j] + ' = Passed');
+          }
+          else{
+            console.log(marks[i][j] + ' = Failed');
+          }
+    }
+}
+
+
+========================================
+
+//Function Idea 
+
+function functionName()
+{
+    //body
+}
+
+call function 
+
+functionName ();
+
+
+// =======Function=====
+
+function sum(){
+    let x = 30;
+    let y = 20;
+    let result = x+y;
+    console.log(result);
+}
+
+// functionName ();
+sum();
+====================================
